@@ -1,0 +1,9 @@
+# Versions used to run the notebook end to end (Python 3.14.0, Windows 11)
+pandas==2.3.3
+numpy==2.5.4
+matplotlib==3.10.8
+seaborn==0.13.2
+scikit-learn==1.8.0
+scipy==1.17.1
+tensorflow==2.22.0rc0
+jupyter

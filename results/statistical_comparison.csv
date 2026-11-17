@@ -1,0 +1,5 @@
+Comparison,Mean A,Mean B,Mean Difference (A - B),95% CI Low,95% CI High,p-value (two-sided),"p-value (one-sided, A > B)",Reliable difference (p < 0.05 and CI excludes 0)
+ANN lr=0.01 vs ANN lr=0.001,0.7255,0.7033,0.0222,-0.0041,0.0484,0.0865,0.0433,False
+ANN lr=0.0001 vs ANN lr=0.001,0.4888,0.7033,-0.2145,-0.2654,-0.1636,0.0001,1.0,True
+ANN lr=0.001 vs Tuned RF,0.7033,0.8702,-0.1669,-0.1916,-0.1423,0.0,1.0,True
+Best ANN (High Learning Rate) vs Tuned RF,0.7255,0.8702,-0.1447,-0.1632,-0.1262,0.0,1.0,True

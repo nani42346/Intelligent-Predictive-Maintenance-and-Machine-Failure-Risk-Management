@@ -1,0 +1,5 @@
+Model,Experiment,Learning Rate,Number_of_Runs,Mean_PR_AUC,Std_PR_AUC,Mean_ROC_AUC,Std_ROC_AUC,Mean_Recall,Std_Recall,Mean_F1,Std_F1
+ANN,Baseline,0.001,5,0.7033,0.0201,0.9729,0.003,0.8745,0.0108,0.4433,0.0034
+ANN,High Learning Rate,0.01,5,0.7255,0.0151,0.9756,0.0046,0.8902,0.0407,0.4958,0.029
+ANN,Low Learning Rate,0.0001,5,0.4888,0.0415,0.9319,0.0132,0.8196,0.0164,0.295,0.0318
+Random Forest,Tuned Random Forest,,5,0.8702,0.0044,0.9884,0.0013,0.702,0.0164,0.7972,0.0112
